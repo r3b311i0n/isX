@@ -1,0 +1,22 @@
+{
+  "name": "isx-cli",
+  "version": "1.0.0",
+  "description": "Generate a function to check if it is X of type number.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r3b311i0n/isX-cli.git"
+  },
+  "scripts": {
+    "test": "./lib/test.js"
+  },
+  "keywords": [
+    "javascript",
+    "is-a"
+  ],
+  "author": "r3b311i0n",
+  "license": "MIT"
+}
