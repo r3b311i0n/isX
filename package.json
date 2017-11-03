@@ -6,6 +6,7 @@
   "directories": {
     "lib": "lib"
   },
+  "bin": "./bin/isx",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/r3b311i0n/isX-cli.git"
