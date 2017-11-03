@@ -19,7 +19,7 @@ try {
 //  Make a copy of the template to modify.
 function copyTemplate(fileName) {
     const templatePath = path.join(__dirname, './lib/template.js');
-    const destination = path.join(process.cwd(), `./${fileName}.js`);
+    const destination = path.join(process.cwd(), `./is${fileName}.js`);
 
     const readStream = fs.createReadStream(templatePath);
     readStream.once('error', (err) => {
